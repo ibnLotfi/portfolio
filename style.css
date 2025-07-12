@@ -59,8 +59,8 @@ nav {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23f8f9fa" width="1200" height="600"/><g fill="%23e9ecef"><circle cx="200" cy="150" r="80"/><circle cx="800" cy="200" r="60"/><circle cx="1000" cy="400" r="100"/><rect x="100" y="300" width="300" height="200" rx="10"/><rect x="600" y="350" width="200" height="150" rx="10"/></g></svg>');
-    background-size: cover;
+    background: url('assets/images/hero-section-img.jpg');
+    background-size: cover;  /* ← Affiche l'image entière */
     background-position: center;
     min-height: 100vh;
     display: flex;
