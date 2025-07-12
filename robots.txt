@@ -1,0 +1,16 @@
+# robots.txt pour ibmDEV_ Portfolio
+# Permet à tous les moteurs de recherche d'explorer le site
+
+User-agent: *
+Allow: /
+
+# Sitemap pour aider les moteurs à découvrir toutes les pages
+Sitemap: https://votre-domaine.vercel.app/sitemap.xml
+
+# Optionnel : bloquer des dossiers non utiles 
+# Disallow: /admin/
+# Disallow: /temp/
+# Disallow: /private/
+
+# Délai entre les requêtes (optionnel, en secondes)
+Crawl-delay: 1
