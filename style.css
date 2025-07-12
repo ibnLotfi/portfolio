@@ -191,12 +191,14 @@ section {
     background: #f8f9fa;
 }
 
+
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes sur desktop */
     gap: 2rem;
     margin-top: 3rem;
 }
+
 
 .service-card {
     background: white;
@@ -398,6 +400,13 @@ footer {
 }
 
 /* Responsive Design */
+
+@media (max-width: 1024px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 colonnes sur tablette */
+    }
+}
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -421,7 +430,7 @@ footer {
     }
 
     .services-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; 
     }
 
     .footer-links {
